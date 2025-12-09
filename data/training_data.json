@@ -1,0 +1,312 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hi there",
+        "hello there",
+        "greetings",
+        "hey there"
+      ],
+      "responses": [
+        "Hello! Welcome to our hospital. How may I assist you today?",
+        "Hi there! I'm your hospital assistant. How can I help you?",
+        "Hey! Welcome to our medical facility. What can I do for you?",
+        "Good day! How may I assist you with your healthcare needs today?",
+        "Welcome to our hospital. How can I help you?"
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "book appointment",
+        "schedule appointment",
+        "make appointment",
+        "appointment availability",
+        "cancel appointment",
+        "reschedule appointment",
+        "appointment time",
+        "need an appointment",
+        "want to see a doctor",
+        "doctor appointment",
+        "set up appointment",
+        "appointment slots",
+        "available appointments",
+        "when can I come",
+        "booking",
+        "schedule a visit"
+      ],
+      "responses": [
+        "I can help you book an appointment. Which department would you like to visit? We have Cardiology, Orthopedics, Pediatrics, General Medicine, and more.",
+        "I'd be happy to schedule an appointment for you. What type of specialist would you like to see?",
+        "Sure! Let me help you make an appointment. Which doctor or department are you looking for?",
+        "I can check appointment availability for you. Please specify the department or doctor you'd like to see.",
+        "Our appointment slots are available from 9 AM to 5 PM on weekdays, and 9 AM to 1 PM on Saturdays. Which department interests you?"
+      ]
+    },
+    {
+      "tag": "appointment_cancel",
+      "patterns": [
+        "cancel appointment",
+        "cancel my appointment",
+        "need to cancel",
+        "want to cancel appointment",
+        "remove appointment"
+      ],
+      "responses": [
+        "I understand you need to cancel an appointment. Please provide your appointment ID or patient number.",
+        "Sure, I can help you cancel. Could you provide your appointment details or patient ID?"
+      ]
+    },
+    {
+      "tag": "appointment_reschedule",
+      "patterns": [
+        "reschedule appointment",
+        "change appointment",
+        "move appointment",
+        "different time",
+        "reschedule my appointment"
+      ],
+      "responses": [
+        "I can help you reschedule. Please provide your current appointment details.",
+        "No problem! Let me help you find a new time. What's your current appointment information?"
+      ]
+    },
+    {
+      "tag": "hospital_info",
+      "patterns": [
+        "visiting hours",
+        "hospital location",
+        "where are you located",
+        "hospital address",
+        "how to reach",
+        "directions",
+        "contact number",
+        "phone number",
+        "hospital timings",
+        "working hours"
+      ],
+      "responses": [
+        "Our visiting hours are from 4 PM to 7 PM daily. ICU visiting hours are restricted to 30 minutes twice a day.",
+        "We are located at the city center, easily accessible by public transport. Would you like specific directions?",
+        "You can reach our main reception at our contact number. For appointments, you can also use this assistant."
+      ]
+    },
+    {
+      "tag": "departments",
+      "patterns": [
+        "departments",
+        "what departments",
+        "which departments",
+        "available departments",
+        "specialties",
+        "specialists available",
+        "list of departments"
+      ],
+      "responses": [
+        "We have Cardiology, Neurology, Orthopedics, Pediatrics, General Surgery, Obstetrics, Emergency Care, Dermatology, ENT, and many more departments.",
+        "Our hospital offers comprehensive care with departments including Cardiology, Orthopedics, Pediatrics, General Medicine, Surgery, and more. Which specialty are you interested in?"
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "emergency",
+        "urgent",
+        "emergency room",
+        "ER",
+        "emergency care",
+        "urgent care",
+        "immediate help"
+      ],
+      "responses": [
+        "For emergencies, please call our emergency hotline immediately or visit our 24/7 emergency department. This is not for emergency situations.",
+        "If this is a medical emergency, please call emergency services or visit our ER immediately. I'm here for general inquiries and appointments."
+      ]
+    },
+    {
+      "tag": "diagnosis",
+      "patterns": [
+        "diagnosis",
+        "what disease",
+        "do I have",
+        "what's wrong with me",
+        "diagnose me",
+        "medical diagnosis",
+        "what illness",
+        "identify disease",
+        "tell me what I have"
+      ],
+      "responses": [
+        "I'm not designed to provide medical diagnosis. Please consult with a doctor for accurate diagnosis. Would you like to book an appointment?",
+        "I cannot diagnose medical conditions. Please contact a qualified doctor for proper diagnosis. Shall I help you schedule an appointment?",
+        "For proper diagnosis, you need to consult with our qualified doctors. Would you like me to book an appointment for you?"
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "symptoms",
+        "I have symptoms",
+        "feeling sick",
+        "not feeling well",
+        "pain",
+        "fever",
+        "headache",
+        "cough",
+        "cold",
+        "stomach ache",
+        "chest pain",
+        "back pain",
+        "sore throat",
+        "dizzy",
+        "nausea",
+        "vomiting"
+      ],
+      "responses": [
+        "I'm not qualified to interpret symptoms or provide diagnosis. Please consult with our doctors. Would you like to book an appointment?",
+        "I cannot provide medical diagnosis. Please consult with a doctor immediately. Can I help you schedule an urgent appointment?",
+        "For medical concerns and symptoms, please consult a qualified doctor. I can help you book an appointment right away.",
+        "I'm unable to diagnose or advise on health issues. Please see a doctor for proper evaluation. Would you like to schedule an appointment?"
+      ]
+    },
+    {
+      "tag": "medication",
+      "patterns": [
+        "medicine",
+        "medication",
+        "prescription",
+        "what medicine",
+        "drug",
+        "pills",
+        "treatment",
+        "cure",
+        "remedy",
+        "what should I take"
+      ],
+      "responses": [
+        "I cannot recommend medications. Please consult with a doctor for proper medical advice. Would you like to see a doctor?",
+        "Medication should only be prescribed by qualified physicians. I'm not designed to provide medical advice. Can I book an appointment for you?",
+        "For treatment and medication advice, please consult with our doctors. Would you like to schedule an appointment?"
+      ]
+    },
+    {
+      "tag": "medical_records",
+      "patterns": [
+        "medical records",
+        "my records",
+        "patient records",
+        "health records",
+        "medical history",
+        "access records"
+      ],
+      "responses": [
+        "For accessing medical records, please visit the reception with your patient ID. Would you like me to help with anything else?",
+        "Medical records can be accessed at the records department with proper identification. Is there anything else I can assist you with?"
+      ]
+    },
+    {
+      "tag": "test_results",
+      "patterns": [
+        "test results",
+        "lab results",
+        "blood test",
+        "scan results",
+        "report",
+        "test report",
+        "lab report"
+      ],
+      "responses": [
+        "Test results can be collected from the lab or accessed through our patient portal. Do you need help with anything else?",
+        "Lab results are available at the laboratory department or through our online patient portal. Can I assist with booking a follow-up appointment?"
+      ]
+    },
+    {
+      "tag": "prescription_refill",
+      "patterns": [
+        "prescription",
+        "refill prescription",
+        "prescription copy",
+        "need prescription",
+        "prescription renewal"
+      ],
+      "responses": [
+        "For prescription refills or copies, please contact your doctor or visit the pharmacy. Can I assist with booking an appointment?",
+        "Prescriptions can be refilled by contacting your doctor. Would you like to schedule an appointment for a consultation?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thank you so much",
+        "thanks a lot",
+        "appreciate it",
+        "thanks for help",
+        "thank you for your help"
+      ],
+      "responses": [
+        "You're welcome! Is there anything else I can help you with?",
+        "Happy to help! Feel free to ask if you need anything else.",
+        "My pleasure! Don't hesitate to reach out if you need more assistance.",
+        "Glad I could help! Let me know if there's anything else."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see you later",
+        "talk to you later",
+        "gotta go",
+        "have to go"
+      ],
+      "responses": [
+        "Goodbye! Take care and stay healthy. Feel free to return if you need assistance.",
+        "Goodbye! Wishing you good health. Don't hesitate to reach out if you need help.",
+        "See you! Stay well and come back anytime you need assistance.",
+        "Take care! Feel free to come back whenever you need help."
+      ]
+    },
+    {
+      "tag": "insurance",
+      "patterns": [
+        "insurance",
+        "health insurance",
+        "insurance accepted",
+        "do you accept insurance",
+        "insurance coverage",
+        "payment options"
+      ],
+      "responses": [
+        "We accept most major insurance plans. Please contact our billing department for specific insurance queries.",
+        "For insurance and payment information, please speak with our billing department. Would you like their contact information?"
+      ]
+    },
+    {
+      "tag": "doctor_info",
+      "patterns": [
+        "doctors",
+        "who are the doctors",
+        "specialist doctors",
+        "doctor names",
+        "available doctors",
+        "best doctor"
+      ],
+      "responses": [
+        "We have experienced doctors in all specialties. Would you like to know about a specific department?",
+        "Our hospital has qualified specialists in various fields. Which department are you interested in?"
+      ]
+    }
+  ],
+  "default_response": "I'm here to help with appointments and hospital information. Could you please rephrase your question, or let me know if you'd like to book an appointment?"
+}

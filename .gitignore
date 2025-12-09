@@ -68,8 +68,6 @@ package-lock.json
 *.pickle
 *.pkl
 
-# Your training JSON files (optional: comment out if you want to track them)
-training_data.json
 
 # ================================
 # Audio Recordings (for voice version)
