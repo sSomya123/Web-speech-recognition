@@ -1,0 +1,85 @@
+
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Byte-compiled
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# ================================
+# Flask / Web App
+# ================================
+instance/
+*.db
+*.sqlite3
+*.sqlite
+*.log
+
+# Ignore environment variables
+.env
+.env.*
+
+# ================================
+# Cache / Temp
+# ================================
+.cache/
+.temp/
+tmp/
+*.tmp
+
+# ================================
+# OS Generated
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# Editors & IDEs
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+# Node / Frontend (if added)
+# ================================
+node_modules/
+package-lock.json
+
+# ================================
+# Training / Model Data
+# ================================
+*.model
+*.pickle
+*.pkl
+
+# Your training JSON files (optional: comment out if you want to track them)
+training_data.json
+
+# ================================
+# Audio Recordings (for voice version)
+# ================================
+*.wav
+*.mp3
+*.ogg
+
+# ================================
+# Build Artifacts
+# ================================
+dist/
+build/
